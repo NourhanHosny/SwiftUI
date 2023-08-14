@@ -20,7 +20,8 @@ struct ContentView: View {
                 
                 HStack{
                     ForEach(superHeros) { item in
-                        SuperHeroView(superH: item)
+                        //SuperHeroView(superH: item)
+                        CardView()
                     }
                 }//: hstack
                 .padding(16)

@@ -16,6 +16,8 @@
 		27918EDB2A82F9C700FFA373 /* Superhero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27918EDA2A82F9C700FFA373 /* Superhero.swift */; };
 		27918EDD2A83F47F00FFA373 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 27918EDC2A83F47F00FFA373 /* chimeup.mp3 */; };
 		27918EDF2A83F48900FFA373 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27918EDE2A83F48900FFA373 /* PlaySound.swift */; };
+		27918F3B2A89912C00FFA373 /* ContactInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27918F3A2A89912C00FFA373 /* ContactInfoView.swift */; };
+		27918F3D2A8994AE00FFA373 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27918F3C2A8994AE00FFA373 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		27918EDC2A83F47F00FFA373 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
 		27918EDE2A83F48900FFA373 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		27918EE52A87F5A400FFA373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		27918F3A2A89912C00FFA373 /* ContactInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoView.swift; sourceTree = "<group>"; };
+		27918F3C2A8994AE00FFA373 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				27918ED62A815F6100FFA373 /* SuperHeroView.swift */,
+				27918F3A2A89912C00FFA373 /* ContactInfoView.swift */,
+				27918F3C2A8994AE00FFA373 /* CardView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -196,11 +202,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27918F3D2A8994AE00FFA373 /* CardView.swift in Sources */,
 				27918EDF2A83F48900FFA373 /* PlaySound.swift in Sources */,
 				27918ECB2A815F0900FFA373 /* ContentView.swift in Sources */,
 				27918ED72A815F6100FFA373 /* SuperHeroView.swift in Sources */,
 				27918EC92A815F0900FFA373 /* SwiftUIStudyApp.swift in Sources */,
 				27918EDB2A82F9C700FFA373 /* Superhero.swift in Sources */,
+				27918F3B2A89912C00FFA373 /* ContactInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
